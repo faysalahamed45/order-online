@@ -2,7 +2,8 @@ import React from 'react';
 
 const Carts = (props) => {
     const cart=props.carts;
-    const total = cart.reduce((total,prd)=>total+prd.price,0)
+    const total = cart.reduce((total,prd)=>total+prd.price*prd.quantity,0)
+    
     let shiping = 0;
     
     if(total>35){
@@ -27,6 +28,9 @@ const Carts = (props) => {
             <p>shiping:{formatNumber(shiping)}</p>
             <p><small>Vat+Tax:{formatNumber(tax)}</small></p>
             <p>total:{formatNumber(total+shiping+tax)}</p>
+             {
+                 props.children
+             }
         </div>
     );
 };
