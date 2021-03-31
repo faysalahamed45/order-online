@@ -1,9 +1,18 @@
 .shop-containe{
     display: flex;
+    background-color: #ABCAE5;
+    height:auto;
 }
 .product-container{
     width:70%;
+    margin-top: 80px;
     margin-left: 20px;
     margin-right: 5px;
-    border-right: 1px solid lightgray;
+    border-right: 1px solid rgb(59, 56, 56);
+   
+}
+.cart-container{
+    margin-left:30px;
+    height: 700px;
+    background-color: #ABCAE5;
 }

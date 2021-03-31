@@ -1,0 +1,13 @@
+*{
+    margin:0;
+    padding:0;
+}
+.cart-component{
+margin-top:80px;
+position: fixed;
+}
+.cart-component p,h4{
+    padding-bottom: 8px;
+    font-weight: 500;
+   
+}

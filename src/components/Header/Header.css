@@ -1,20 +1,78 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+}
+.navbar-container{
+    position: fixed;
+    display: flex;
+    width: 100%;
+    /* background-color: rgba(0, 0, 0, 0.493); */
+    background-color: #415469;
+    justify-content:space-around;
+    line-height: 60px;
+    height:60px;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+}
 .header img{
+    padding-top: 10px;
     height: 50px;
+    line-height: 50px;
     display: block;
     margin:0 auto;
 }
-nav{
-    background-color: black;
-    line-height: 40px;
-    font-size: 20px;
-}
+
 nav a{
+   margin-top:0;
     text-decoration: none;
     margin-left: 20px;
     color:white;
-    padding:5px;
+    padding:10px;
 
 }
 nav a:hover{
     background-color: gray;
+    padding:10px;
+    border-radius: 5px;
+    background-color:black;
+}
+nav button{
+    /* position: relative; */
+    margin-left: 20px;
+    padding:10px;
+    font-size: 18px;
+    background-color:transparent;
+    outline: none;
+    border: none;
+    color:rgb(230, 223, 223);
+    font-weight:500;
+}
+button:hover+ .hide {
+    visibility: visible;
+    /* padding:10px; */
+    width:fit-content;
+    /* position:absolute; */
+    background-color:#4d484a;
+    border-radius: 5px;
+    color:white;
+    margin-top: 15px;
+    margin-right: 0px;
+    display: inline-block;
+    
+} 
+.hide {
+    /* visibility: hidden; */
+   display: inline-block;
+   margin-right: 0 auto;
+  }
+      
+  .myDIV:hover + .hide {
+    
+    color: red;
+  }
+.user-name{
+    color:#c52163;
+    padding-left:15px;
 }
