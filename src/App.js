@@ -12,8 +12,8 @@ import Inventory from './components/Inventory/Inventory';
 import NotFound from './components/Not Found/NotFound';
 import ProductDetail from './components/ProductDetail/ProductDetail';
 import Shipment from './components/Shipment/Shipment';
-import PrivateRoute from './components/PrivateRoute/PrivateRoute';
 import LogIn from './components/LogIn/LogIn';
+import PrivateRoute from './components/LogIn/PrivateRoute/PrivateRoute';
 
 
 export const userCreate = createContext();

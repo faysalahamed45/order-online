@@ -1,6 +1,6 @@
 import React, { useContext } from 'react';
 import { userCreate } from '../../App';
-import fakeData from '../../fakeData'
+import fakeData from '../../fakeData';
 import Header from '../Header/Header';
 
 const Inventory = () => {

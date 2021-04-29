@@ -1,12 +1,11 @@
 import React, { useContext, useEffect, useState } from 'react';
-import fakeData from '../../fakeData';
-import { getDatabaseCart, processOrder, removeFromDatabaseCart } from '../../utilities/databaseManager';
-import Carts from '../Carts/Carts';
-import ReviewItem from '../ReviewItem/ReviewItem';
-import happyImage from '../../images/giphy.gif';
 import { useHistory } from 'react-router';
-import Header from '../Header/Header';
 import { userCreate } from '../../App';
+import happyImage from '../../images/giphy.gif';
+import { getDatabaseCart, removeFromDatabaseCart } from '../../utilities/databaseManager';
+import Carts from '../Carts/Carts';
+import Header from '../Header/Header';
+import ReviewItem from '../ReviewItem/ReviewItem';
 
 const Review = () => {
     const [loggedInUser, setLoggedInUser] = useContext(userCreate);

@@ -7,7 +7,6 @@
     position: fixed;
     display: flex;
     width: 100%;
-    /* background-color: rgba(0, 0, 0, 0.493); */
     background-color: #415469;
     justify-content:space-around;
     line-height: 60px;
@@ -16,12 +15,12 @@
     font-weight: 500;
     font-family: Arial, Helvetica, sans-serif;
 }
-.header img{
-    padding-top: 10px;
-    height: 50px;
-    line-height: 50px;
-    display: block;
-    margin:0 auto;
+.brand-name{
+	height:30px;
+	line-height: 30px;
+	margin-top:10px;
+	color:darkturquoise;
+	font-weight: 700;
 }
 
 nav a{
@@ -38,10 +37,8 @@ nav a:hover{
     border-radius: 5px;
     background-color:black;
 }
-nav button{
-    /* position: relative; */
+ nav button{
     margin-left: 20px;
-    padding:10px;
     font-size: 18px;
     background-color:transparent;
     outline: none;
@@ -49,29 +46,29 @@ nav button{
     color:rgb(230, 223, 223);
     font-weight:500;
 }
-button:hover+ .hide {
+/* button:hover+ .hide {
     visibility: visible;
-    /* padding:10px; */
+
     width:fit-content;
-    /* position:absolute; */
+
     background-color:#4d484a;
     border-radius: 5px;
     color:white;
     margin-top: 15px;
     margin-right: 0px;
     display: inline-block;
-    
-} 
+
+}
 .hide {
-    /* visibility: hidden; */
+
    display: inline-block;
    margin-right: 0 auto;
   }
-      
+
   .myDIV:hover + .hide {
-    
+
     color: red;
-  }
+  } */
 .user-name{
     color:#c52163;
     padding-left:15px;

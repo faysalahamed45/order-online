@@ -10,8 +10,8 @@ const Header = (props) => {
         <div className="header">
 
             <nav className="navbar-container">
-                <div className="header">
-                    <img src={logo} alt="" />
+                <div className="brand-name">
+                    <h2>ORDER ONLINE</h2>
                 </div>
                 <div>
                     <Link to="/shop">Shop</Link>
@@ -20,12 +20,12 @@ const Header = (props) => {
                     {props.success ? <h4 className="user-name" style={{ display: "inline-block" }}>{props.userName}</h4> : <Link className="active" to="/login">Login</Link>}
 
                     {
-                        props.success && 
+                        props.success &&
                             <button onClick={() => setLoggedInUser({})}><i className="fas fa-sign-out-alt "></i></button>
                     }
                     
                 </div>
-                
+
             </nav>
             {/* <p className="hide">sign-out</p> */}
         </div>
